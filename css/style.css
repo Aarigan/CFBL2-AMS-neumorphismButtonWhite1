@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(231, 233, 234); 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.div-btn {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 45px;
+}
+
+button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+  border: none;
+  color: transparent;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* **********  Button left***********/
+/* Button 1 */
+.btn-1-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);            
+}
+
+.btn-1-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 2 */
+.btn-2-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 3px;
+}
+
+.btn-2-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 3 */
+.btn-3-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 6px;
+}
+
+.btn-3-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 4 */
+.btn-4-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 3px;
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 12px;
+}
+
+.btn-4-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 5 */
+.btn-5-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 24px;
+}
+
+.btn-5-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 6 */
+.btn-6-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 100px;
+}
+
+.btn-6-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 7 */
+.btn-7-left {
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+
+/* Button 8 square*/
+.btn-8-left {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+}
+
+.btn-8-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* Button 9 rounded*/
+.btn-9-left {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+              3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px rgba(94, 104, 121, .188);
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(206, 206, 206);
+}
+
+.btn-9-left:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132), 
+               0 0 16px rgb(230, 230, 230), 
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+}
+
+/* **********  Button right ***********/
+/* Button 1 */
+.btn-1-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px  rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-1-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 2 */
+.btn-2-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 3px;
+}
+
+.btn-2-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 3 */
+.btn-3-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 6px;
+}
+
+.btn-3-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 4 */
+.btn-4-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 12px;
+}
+
+.btn-4-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 5 */
+.btn-5-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 24px;
+}
+
+.btn-5-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 6 */
+.btn-6-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 100px;
+}
+
+.btn-6-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 7 */
+.btn-7-right {
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+
+/* Button 8 square*/
+.btn-8-right {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-8-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
+
+/* Button 9 rounded*/
+.btn-9-right {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(231, 233, 234);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(206, 206, 206);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-9-right:hover {
+  color: rgb(114, 163, 215);
+  text-shadow: 1px 1px 2px rgb(133, 132, 132),
+               0 0 16px rgb(230, 230, 230),
+               0 0 3.2px rgb(235, 235, 235);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+}
